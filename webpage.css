@@ -1,0 +1,114 @@
+body {
+    background-image: url(kep.jpg);
+    background-size: cover;
+    
+}
+#logo {
+    color: red;
+    font-size: 80px;
+}
+#logo {
+    padding: 20px;
+}
+#search {
+    position: relative;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    height: 3vw;
+    font-size: 25px;
+}
+
+#sbutton {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    left: 47%;
+    height: 2vw;
+    width: 7vw;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+}
+.top {
+    position: static;
+    text-decoration: none;
+}
+header {
+    margin-bottom: 200px;
+}
+#text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie img {
+    width: 100%;
+}
+
+.movie {
+    position: relative;
+    width: 250px;
+    margin: 20px;
+    border: 1px rgba(245, 245, 245, 0.2) solid;
+
+}
+
+.movie_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    height: 150px;
+    background-color: black;
+    padding: 10px;
+}
+
+span {
+    font-size: 25px;
+}
+
+#sbartext {
+    font-size: 40px;
+}
+
+#sbutton:hover {
+    background-color: brown;
+}
+#search:hover {
+    background-color: whitesmoke;
+}
+
+#search:focus {
+    outline: 0;
+    background-color: lightgrey;
+    color: black;
+}
+.overview {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: ease-in;
+    transition-duration: 0.3s;
+    color: transparent;
+    background-color: transparent;
+}
+.movie:hover .overview {
+    transform: translateY(0);
+    background-color: whitesmoke;
+    color: black;
+}
